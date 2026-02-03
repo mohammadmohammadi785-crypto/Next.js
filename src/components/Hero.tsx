@@ -7,10 +7,18 @@ export default function Hero() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-5xl font-bold"
+        className="text-4xl font-bold"
       >
         Hi, I'm Mohammad 👋
       </motion.h2>
+      <motion.h3
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="font-bold text-2xl"
+      >
+        Im A Full Stuck Devoloper In Sharifi High School
+      </motion.h3>
     </section>
   );
 }
