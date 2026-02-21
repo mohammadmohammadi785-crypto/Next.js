@@ -1,19 +1,7 @@
-import Navbar from "../components/Navar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </main>
+    <h1 className="flex justify-center items-center w-full h-screen text-8xl text-center">
+      Home Page
+    </h1>
   );
 }
